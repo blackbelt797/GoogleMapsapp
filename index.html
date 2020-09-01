@@ -18,23 +18,13 @@
                 <i class="fas fa-search"></i>
             </div>
         </div>
+        <div class="stores-list-container">
+
+        </div>
         <div id='map'></div>
-        <script>
-        let map;
-        function initMap() {
-            let losAngeles = {lat: 34.063380, lng: -118.358080};
-            map = new google.maps.Map(document.getElementById("map"), {
-                center: losAngeles,
-                zoom: 8
-            });
-           }
-        </script>  
-        <script defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqk1AUaZs8Ut1p2r6yjyroJk9QMdmfc98
+        <script src="js/index.js" async defer></script>
+        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqk1AUaZs8Ut1p2r6yjyroJk9QMdmfc98
         &callback=initMap" 
         async defer></script>
-             
-   
-        <script src="js/index.js" async defer></script>
     </body>
 </html>
